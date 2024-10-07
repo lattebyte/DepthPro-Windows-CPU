@@ -1,5 +1,5 @@
-![](data/inferred_example.png)
-![](data/depth-pro-teaser.jpg)
+![](data/inferred_2.png)
+
 ## Getting Started
 We recommend setting up a virtual environment. Using e.g. Anaconda run as administration, the `depth_pro` package can be installed via:
 
@@ -40,7 +40,7 @@ We present a foundation model for zero-shot metric monocular depth estimation. O
 
 
 The model in this repository is a reference implementation, which has been re-trained. Its performance is close to the model reported in the paper but does not match it exactly.
-
+![](data/depth-pro-teaser.jpg)
 
 ### Depth Pro: Sharp Monocular Metric Depth in Less Than a Second
 
