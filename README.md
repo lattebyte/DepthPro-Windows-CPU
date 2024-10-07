@@ -12,32 +12,19 @@ pip install -e .
 
 To download pretrained checkpoints follow the steps below:
 ```bash
+# create directory
 mkdir checkpoints
 ```
 Then, manually download model by entering the following into web browser:
 https://ml-site.cdn-apple.com/models/depth-pro/depth_pro.pt
 
-Once completed, move 'depth_pro.pt' into `checkpoints`
+Once completed, move `depth_pro.pt` into `checkpoints`
 
 
 ### Running from python
 
-```python
-from PIL import Image
-import depth_pro
-
-# Load model and preprocessing transform
-model, transform = depth_pro.create_model_and_transforms()
-model.eval()
-
-# Load and preprocess an image.
-image, _, f_px = depth_pro.load_rgb(image_path)
-image = transform(image)
-
-# Run inference.
-prediction = model.infer(image, f_px=f_px)
-depth = prediction["depth"]  # Depth in [m].
-focallength_px = prediction["focallength_px"]  # Focal length in pixels.
+```bash
+python cpu_img_inference.py
 ```
 
 ## Original ReadMe below
