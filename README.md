@@ -40,8 +40,8 @@ depth = prediction["depth"]  # Depth in [m].
 focallength_px = prediction["focallength_px"]  # Focal length in pixels.
 ```
 
-
-## Depth Pro: Sharp Monocular Metric Depth in Less Than a Second
+## Original ReadMe below
+### Depth Pro: Sharp Monocular Metric Depth in Less Than a Second
 
 This software project accompanies the research paper:
 **[Depth Pro: Sharp Monocular Metric Depth in Less Than a Second](https://arxiv.org/abs/2410.02073)**, 
@@ -54,7 +54,7 @@ We present a foundation model for zero-shot metric monocular depth estimation. O
 
 The model in this repository is a reference implementation, which has been re-trained. Its performance is close to the model reported in the paper but does not match it exactly.
 
-## Original ReadMe below
+
 ### Depth Pro: Sharp Monocular Metric Depth in Less Than a Second
 
 This software project accompanies the research paper:
