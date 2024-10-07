@@ -1,3 +1,4 @@
+![](data/inferred_example.png)
 ![](data/depth-pro-teaser.jpg)
 ## Getting Started
 We recommend setting up a virtual environment. Using e.g. Anaconda run as administration, the `depth_pro` package can be installed via:
