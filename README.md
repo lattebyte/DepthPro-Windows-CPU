@@ -18,7 +18,7 @@ To download pretrained checkpoints follow the steps below:
 mkdir checkpoints
 ```
 Then, manually download model by entering the following into web browser:
-https://ml-site.cdn-apple.com/models/depth-pro/depth_pro.pt
+`https://huggingface.co/lattebyte-ai/Depth_Est/blob/main/depth_pro.pt`
 
 Once completed, move `depth_pro.pt` into `checkpoints`
 
@@ -29,14 +29,12 @@ Once completed, move `depth_pro.pt` into `checkpoints`
 python cpu_img_inference.py
 ```
 
-## Original ReadMe below
+## Original References
 ### Depth Pro: Sharp Monocular Metric Depth in Less Than a Second
 
 This software project accompanies the research paper:
 **[Depth Pro: Sharp Monocular Metric Depth in Less Than a Second](https://arxiv.org/abs/2410.02073)**, 
 *Aleksei Bochkovskii, Amaël Delaunoy, Hugo Germain, Marcel Santos, Yichao Zhou, Stephan R. Richter, and Vladlen Koltun*.
-
-![](data/depth-pro-teaser.jpg)
 
 We present a foundation model for zero-shot metric monocular depth estimation. Our model, Depth Pro, synthesizes high-resolution depth maps with unparalleled sharpness and high-frequency details. The predictions are metric, with absolute scale, without relying on the availability of metadata such as camera intrinsics. And the model is fast, producing a 2.25-megapixel depth map in 0.3 seconds on a standard GPU. These characteristics are enabled by a number of technical contributions, including an efficient multi-scale vision transformer for dense prediction, a training protocol that combines real and synthetic datasets to achieve high metric accuracy alongside fine boundary tracing, dedicated evaluation metrics for boundary accuracy in estimated depth maps, and state-of-the-art focal length estimation from a single image.
 
