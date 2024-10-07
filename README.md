@@ -12,29 +12,25 @@ We present a foundation model for zero-shot metric monocular depth estimation. O
 The model in this repository is a reference implementation, which has been re-trained. Its performance is close to the model reported in the paper but does not match it exactly.
 
 ## Getting Started
-
-We recommend setting up a virtual environment. Using e.g. miniconda, the `depth_pro` package can be installed via:
+We recommend setting up a virtual environment. Using e.g. Anaconda, the `depth_pro` package can be installed via:
 
 ```bash
-conda create -n depth-pro -y python=3.9
+cd /target/folder
+conda create -n depth-pro-win-cpu -y python=3.9
 conda activate depth-pro
-
+git clone https://github.com/lattebyte/DepthPro-Windows-CPU.git
 pip install -e .
 ```
 
-To download pretrained checkpoints follow the code snippet below:
+To download pretrained checkpoints follow the steps below:
 ```bash
-source get_pretrained_models.sh   # Files will be downloaded to `checkpoints` directory.
+mkdir checkpoints
 ```
+Then, manually download model by entering the following into web browser:
+https://ml-site.cdn-apple.com/models/depth-pro/depth_pro.pt
 
-### Running from commandline
+Once completed, move 'depth_pro.pt' into `checkpoints`
 
-We provide a helper script to directly run the model on a single image:
-```bash
-# Run prediction on a single image:
-depth-pro-run -i ./data/example.jpg
-# Run `depth-pro-run -h` for available options.
-```
 
 ### Running from python
 
