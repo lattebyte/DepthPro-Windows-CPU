@@ -1,6 +1,6 @@
 ![](data/depth-pro-teaser.jpg)
 ## Getting Started
-We recommend setting up a virtual environment. Using e.g. Anaconda, the `depth_pro` package can be installed via:
+We recommend setting up a virtual environment. Using e.g. Anaconda run as administration, the `depth_pro` package can be installed via:
 
 ```bash
 cd /target/folder
