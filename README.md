@@ -5,7 +5,7 @@ We recommend setting up a virtual environment. Using e.g. Anaconda run as admini
 ```bash
 cd /target/folder
 conda create -n depth-pro-win-cpu -y python=3.9
-conda activate depth-pro
+conda activate depth-pro-win-cpu
 git clone https://github.com/lattebyte/DepthPro-Windows-CPU.git
 pip install -e .
 ```
