@@ -1,17 +1,27 @@
+Copyright (c) <2024>, <Lattebyte Pty Ltd> <JZ>
+All rights reserved.
 
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+3. All advertising materials mentioning features or use of this software
+   must display the following acknowledgement:
+   This product includes software developed by the <Lattebyte Pty Ltd> <JZ>.
+4. Neither the name of the <Lattebyte Pty Ltd> <JZ> nor the
+   names of its contributors may be used to endorse or promote products
+   derived from this software without specific prior written permission.
 
-**Copyright (C) 2024 LatteByte Pty Ltd. All Rights Reserved.**
-
-Disclaimer: IMPORTANT: This LatteByte software is supplied to you by LatteByte Pty Ltd. ("LatteByte") in consideration of your agreement to the following terms, and your use, installation, modification, or redistribution of this LatteByte software constitutes acceptance of these terms. If you do not agree with these terms, please do not use, install, modify, or redistribute this LatteByte software.
-
-In consideration of your agreement to abide by the following terms, and subject to these terms, LatteByte grants you a personal, non-exclusive license, under LatteByte's copyrights in this original LatteByte software (the "LatteByte Software"), to use, reproduce, modify and redistribute the LatteByte Software, with or without modifications, in source and/or binary forms; provided that if you redistribute the LatteByte Software in its entirety and without modifications, you must retain this notice and the following text and disclaimers in all such redistributions of the LatteByte Software. Neither the name, trademarks, service marks, or logos of LatteByte Pty Ltd. may be used to endorse or promote products derived from the LatteByte Software without specific prior written permission from LatteByte. Except as expressly stated in this notice, no other rights or licenses, express or implied, are granted by LatteByte herein, including but not limited to any patent rights that may be infringed by your derivative works or by other works in which the LatteByte Software may be incorporated.
-
-The LatteByte Software is provided by LatteByte on an "AS IS" basis. LATTEBYTE MAKES NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, REGARDING THE LATTEBYTE SOFTWARE OR ITS USE AND OPERATION ALONE OR IN COMBINATION WITH YOUR PRODUCTS.
-
-IN NO EVENT SHALL LATTEBYTE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION, MODIFICATION AND/OR DISTRIBUTION OF THE LATTEBYTE SOFTWARE, HOWEVER CAUSED AND WHETHER UNDER THEORY OF CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, EVEN IF LATTEBYTE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
--------------------------------------------------------------------------------
-SOFTWARE DISTRIBUTED IN THIS REPOSITORY:
-
-This software includes a number of subcomponents with separate copyright notices and license terms - please see the file ACKNOWLEDGEMENTS.
--------------------------------------------------------------------------------
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER ''AS IS'' AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL 
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR 
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER 
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE 
+USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

@@ -24,7 +24,7 @@ Once completed, move `depth_pro.pt` into `checkpoints`
 
 
 ### Running from python
-
+LICENSE_2 applies to this file
 ```bash
 python cpu_img_inference.py
 ```
