@@ -30,7 +30,8 @@ Once completed, move `depth_pro.pt` into `checkpoints`
 
 
 ### Running from python
-LICENSE_2 applies to this file
+LICENSE_2 applies to this file  
+Note that file path for MacOS is WIP, it might be different to Windows OS
 ```bash
 python cpu_img_inference.py
 ```
