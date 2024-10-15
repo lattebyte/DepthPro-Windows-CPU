@@ -1,10 +1,14 @@
 ![](data/inferred_2.png)
 
 ## Getting Started
-We recommend setting up a virtual environment. Using e.g. Anaconda run as administration, the `depth_pro` package can be installed via:  
+We recommend setting up a virtual environment. Using e.g. Anaconda run as administration,  
+
 https://www.anaconda.com/download/success  
 for MacOS, choose Apple sillicon for M1, M2  
-otherwise usually it is Intel Chip option  
+otherwise usually Intel Chip option  
+ 
+the `depth_pro` package can be installed via:  
+
 ```bash
 cd /target/folder
 conda create -n depth-pro-win-cpu -y python=3.9
