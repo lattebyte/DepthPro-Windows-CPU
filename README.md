@@ -1,6 +1,11 @@
 ![](data/inferred_1.png)
 ![](data/inferred_0.png)
 
+## YouTube Demo
+
+https://youtu.be/3Vm2yJsiLZY
+https://youtu.be/ZKJg3GJ4SSY
+
 ## Getting Started
 
 We recommend setting up a virtual environment. Using e.g. Anaconda run as administration,
