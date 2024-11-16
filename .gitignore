@@ -1,2 +1,4 @@
 # Ignore AI Model
 checkpoints/depth_pro.pt
+
+data/private_temp_editor.pptx
