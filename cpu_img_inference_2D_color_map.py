@@ -14,7 +14,8 @@ model.eval()
 
 # Load and preprocess an image.
 current_dir = os.path.dirname(__file__)
-relative_path = 'data/example.jpg'
+#relative_path = 'data/example.jpg'
+relative_path = 'data/road_1.png'
 image_path=os.path.join(current_dir, relative_path)
 image, _, f_px = depth_pro.load_rgb(image_path)
 image = transform(image)
@@ -38,4 +39,3 @@ plt.imshow(depth_np, cmap='plasma')  # Use a colormap like 'plasma' for visualiz
 plt.colorbar(label="Depth (meters)")  # Optional colorbar for the depth scale
 plt.title("Inferred Depth Map")
 plt.show()
-
