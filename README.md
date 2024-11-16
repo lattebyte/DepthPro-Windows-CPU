@@ -1,5 +1,5 @@
 ![](data/inferred_1.png)
-![](data/inferred_2.png)
+![](data/inferred_0.png)
 
 ## Getting Started
 
